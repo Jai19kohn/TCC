@@ -1,0 +1,78 @@
+
+/*========================================inicio do rodapé*/
+
+footer {
+    background-color: #927160 ;
+    padding-bottom: 50px;
+}
+
+.facebook { /*usado para configurar o icone  do facebook*/
+    width: 50px ;
+    height: 40px ;
+    margin-left: 100px;
+}
+
+.instagram {  /*usado para configurar o icone  do instagram*/
+    width: 50px ;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.email {  /*usado para configurar o icone  do email*/
+    width: 50px;
+    height: 40px;
+    margin-left: 51px;
+
+}
+
+.youtube {  /*usado para configurar o icone  do youtube*/
+    width: 50px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.linkedin {  /*usado para configurar o icone  do linkedin*/
+    width: 35px;
+    height: 35px;
+}
+
+.displayfooter {
+    font-family: arial;
+    display: flex;
+}
+
+.footerlinkedin { /*usei para configurar a organização dos icones do linkedin*/
+    display: flow-root;
+    margin-left: 230px;
+
+}
+
+.arrumar {
+    padding-right: 20px;
+    margin-left: 50px;
+}
+
+.redess { /*usei para dar espaço entre "redes socias" e "siga nossa linkedin"*/
+    padding-right: 20px;
+    margin-left: 100px;
+
+}
+
+
+.face:hover {  /*usado para configurar o hover do facebook*/
+    color: yellow;
+}
+
+.insta:hover { /*usado para configurar o hover do insta*/
+    color: ;
+}
+
+.email:hover { /*usado para configurar o hover do email*/
+    color: #586f69;
+}
+
+.yt:hover { /*usado para configurar o hover do youtube*/
+    color: ;
+}
+
+/*==============================fim do rodapé*/

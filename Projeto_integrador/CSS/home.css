@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+body {
+    font-family:Arial;
+}
+
+/*==================================inico do sobre nos*/
+
+ .sobrenos { /*usei para configurar a seção sobre nos*/
+    background-image: url('fundo1.jpg');
+    background-position: center ;
+    background-size: cover;
+    float: left;
+    padding: 50px;
+    background-color:white;
+    width: 100%;
+    
+ }
+
+ .titlesobre {  /*usei para configur o titulo do sobre nos*/
+    padding-left: 40%;
+    font-size: 100px;
+ }
+
+ .future { /*usei para configurar o "future" do titulo do sobre nos*/
+    margin-top: -110px;
+    padding-left: 50%;
+    color: red;
+
+ }
+
+ .btnsobre { /*usei para configurar o botao "sobre nos"*/
+padding-left: 200px;
+color: aqua;
+ }
+
+ .btnsobre:hover { /*Usado para configurar a o hover do botao "sobre nos"*/
+    color: red;
+ }
+
+ .psobre { /*usei para configurar o paragrafo do sobre nos*/
+    padding-bottom: 400px;
+    padding-left:50%;
+    font-size: 30px;
+    padding-top: 20px;
+ }
+
+
+
+
+/*==================================fim do sobre nos*/
+
+
+
+
+/*==================================inico da importancia dos adubos organicos */
+
+.impadubos { /*usei para configurar a seção "importancia dos adubos orgânicos"*/
+    float: left;
+    padding: 50px;
+    background-color:#e5d8c5 ;
+    font-size: 30px;
+    color: #270f27;
+ }
+
+ .titleimpadubos{
+    text-align: center;
+    margin-bottom: 30px;
+ }
+
+
+.imgimpadubos { /*usei para configurar a img da seção "importancia dos adubos orgânicos"*/
+    float: left;
+    width: 400px ;
+    height:400px ;
+    border-radius: 20px;
+    margin-right: 19px;
+   
+}
+
+.textimpadubos { /*usei para configurar o texto da seção "importancia dos adubos orgânicos"*/
+
+}
+    
+    
+
+/*==================================fim da importancia dos adubos organicos */
+
+
+
+
+
+
+
+
+
+/*==================================inico do que os pesticidas causam*/
+
+.oqpesticidas { /*usei para configurar a seção "oq pesticidas causam"*/
+    float: left;
+    padding: 50px;
+    background-color:#7e5950 ;
+    color: #270f27;
+
+ }
+
+.imgoqpesticidas { /*usei para configurar a img da seção "oq pesticidas causam"*/
+    float: right;
+    width: 400px ;
+    height: 400px;
+    border-radius:20px ;
+   
+}
+
+.titleoqpesticidas {
+    font-size: 50px;
+}
+
+.ppesticidas {
+    font-size: 30px;
+}
+
+/*==================================fim do que os pesticidas causam */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================inicio dos cards*/
+
+
+.imgc1 { /*configura a imagem do 1 card*/
+    width: 250px;
+    height: 190px;
+}
+
+
+.imgc2 {  /*configura a imagem do 2 card*/
+    width: 250px;
+    height: 190px;
+}
+
+.imgc3 { /*configura a imagem do 3 card*/
+    width: 250px;
+    height: 190px;
+    margin-top: 40px;
+    margin-bottom: -35px;
+}
+
+
+.cards.grid{ /*usado para colocar os cards um ao lado do outro*/
+    gap: 2rem;  
+    display: flex;
+    margin: 100px;
+}
+
+.cards .container{
+    margin: 0 auto;
+}
+
+.card{
+    padding: 5rem 2rem;
+    box-shadow: 0px 0px 15px  rgba(0,0,0,0.08);
+    border-bottom: 0.25rem solid ;
+    border-radius: .25rem .25rem 0 0;
+    text-align: center;
+    background-color: var(--body-color);
+    background-color: #927160  ;
+    color: #270f27;
+}
+
+.card i{
+    display: block;
+    margin: 3rem;
+    font-size: 5rem;
+    color: var(--base-color);
+    
+}
+
+.card .title{ /*usei para configurar o titulo dos cards*/
+    font-size: 1.5rem;
+    
+}
+
+/*===========================================fim dos cards*/
+
+
+
+
+
+
+/*========================================== inicio dos parceiros*/
+
+        .parceirostotal { /*usado para configurar a area de parceiros*/
+            background-color:yellowgreen;
+            padding-bottom: 200px;
+            
+        }
+
+        .parceiros { /*usei para deixar espaço entre as imagens*/
+         margin: 20px;
+     
+        }
+
+        .patrocinio { /*usei para colocar uma imagem ao lado da outra e configurar a margem*/
+            display: flex;
+            margin-left: 400px;
+        }
+
+/*=======================================fim dos parceiros*/
+
+
+
+
+
+
