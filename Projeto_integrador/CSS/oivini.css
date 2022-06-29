@@ -1,0 +1,220 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;     
+    font-size: 17px;
+    color:rgb(33, 196, 0);
+    margin: 0px;
+
+}
+
+article {
+    padding-top: 0px;     
+    padding-bottom: 0px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block; 
+
+    
+    
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7e5950
+}
+
+p {
+    color: #e5d8c5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+.container1 {
+    background-image: url('oioioi.jpg');
+    background-size: 110%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: -100px;
+    border-right: -100px;
+    border-top: -100px;
+    border-bottom: 100px;
+    padding-bottom: 500px;
+    padding-top: 50px;
+  
+  
+    background-position: center;
+}
+
+img {
+    border-radius: 70px;
+    padding: 20px;
+}
+
+
+
+.container2 {
+    padding-top: -200px;     
+    padding-bottom: 30px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+
+.container3 {
+    padding-top: -200px;     
+    padding-bottom: 30px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+.container4 {
+    padding-top: 0px;     
+    padding-bottom: 100px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+
+.container5 {
+    padding-top: 0px;     
+    padding-bottom: 100px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;
+}
+
+
+
+
+
+nav {
+    background: #586f69;
+    color: #b6c2aa;
+    padding: 50px;
+    border-bottom: 0.25rem solid #485158;
+    
+ 
+}
+.login {
+    width: 50px;
+    right: 50px;
+    float: right;
+    padding-right:px ;
+    margin-top: -30px;
+}
+
+
+.emcima{
+    float: right;
+    font-size:  25px;
+    margin-top: -20px;
+    padding-left : 10px;
+    padding-right: 20px;
+    color: #b6c2aa;
+    text-decoration: none;
+}
+
+.emcima:hover {
+    background-color: aqua;
+}
+
+
+.container8 {
+    padding-top: 0px;     
+    padding-bottom: 10px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: -100px;        
+    display: block;
+}
+
+
+footer {
+    background-color: #927160 ;
+    padding-bottom: 100px;
+}
+
+.facebook { 
+    width: 50px ;
+    height: 40px ;
+    margin-left: 100px;
+}
+
+.instagram {  
+    width: 50px ;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.email {  
+    width: 50px;
+    height: 40px;
+    margin-left: 51px;
+
+}
+
+.youtube {  
+    width: 50px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.linkedin {  
+    width: 35px;
+    height: 35px;
+}
+
+.displayfooter {
+    font-family: arial;
+    display: flex;
+}
+
+.footerlinkedin {
+    display: flow-root;
+    margin-left: 230px;
+}
+
+.arrumar {
+    padding-right: 20px;
+    margin-left: 50px;
+}
+
+.redess { 
+    padding-right: 20px;
+    margin-left: 100px;
+
+}
+
+
+.face:hover {  
+    color: yellow;
+}
+
+.insta:hover { 
+    color: ;
+}
+
+.email:hover { 
+    color: #586f69;
+}
+
+.yt:hover { 
+    color: ;
+}

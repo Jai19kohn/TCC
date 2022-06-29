@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/formulario.css">
+    <link rel="stylesheet" href="./CSS/nav_footer.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <nav class="pera">
+            <p class="titulo-nav">Organic Future</p>
+            <a href="login"><img class="login" src="./imagens/login.svg" > </a>
+            <a class="emcima" href="loja.html">Produtos</a>
+            <a class="emcima" href="biopesticidas.html">Biopesticidas e adubos orgânicos</a>    
+            <a class="emcima" href="pesticidas.html">Pesticidas</a>
+            <a class="emcima" href="SobreNos.html">Sobre nós</a>
+            <a class="emcima" href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <form>
+
+    <div id="container">
+        <p id="titulo">Cadastre-se 
+        </p>
+        <p> Nome: <input id="name" type="text" placeholder="Nome " > </p>
+
+        <p> Data de nascimento:<br />
+            <input type="text" placeholder="Dia" id="day">
+            <input type="text" placeholder="Mês"
+            id="month">
+            <input type="text" placeholder="Ano" id="year">
+
+            <div class="email2">
+            <label  class="form-label">E-mail</label>             
+            <input id="emailback" type="email" class="email1" placeholder="Adicione seu E-mail :">
+        </div>
+        </p>
+
+     <div  class="estado">
+        <label  for="exampleDataList" class="form-label">Estado</label> 
+                <input id="estado" class="formcontrol" list="datalistOptions" id="exampleDataList" placeholder="Digite seu Estado:">             
+                <datalist id="datalistOptions">
+                    <option value="Acre"></option> 
+                    <option value="Alagoas"></option> 
+                    <option value="Amapá"></option> 
+                    <option value="Amazonas"></option> 
+                    <option value="Bahia"></option>
+                    <option value="Ceará"></option>
+                    <option value="Distrito Federal"></option>
+                    <option value="Espírito Santo"></option>
+                    <option value="Goiás"></option>
+                    <option value="Maranhão"></option>
+                    <option value="Mato Grosso"></option>
+                    <option value="Mato Grosso do Sul"></option>
+                    <option value="Minas Gerais"></option>
+                    <option value="Pará"></option>
+                    <option value="Paraíba"></option>
+                    <option value="Paraná"></option>
+                    <option value="Pernambuco"></option>
+                    <option value="Piauí"></option>
+                    <option value="Rio de Janeiro"></option>
+                    <option value="Rio Grande do Sul"></option>
+                    <option value="Rondônia"></option>
+                    <option value="Roraima"></option>
+                    <option value="Santa Catarina"></option>
+                    <option value="São Paulo"></option>
+                    <option value="Sergipe"></option>
+                    <option value="Tocantins"></option>
+                </datalist>
+                <br />
+            </div>
+
+         <button id="butonnn" onclick="ageCheck()">ENTRAR</button>
+
+
+        </form>
+
+
+    </div>
+
+
+    <footer>
+        <div class="displayfooter">
+        
+            <img src="https://cdn-icons.flaticon.com/png/512/3993/premium/3993656.png?token=exp=1656048471~hmac=24e519b171d8727c1a80a6db29cf1963" width="300px" height="300px">
+        
+        
+            <div >
+            <h3 class="redess">Redes sociais</h3> <br />
+            <a class="face" href="facebook" target="_blank"><img class="facebook" src="https://cdn-icons-png.flaticon.com/512/59/59439.png"></a> <br />
+            <a class="insta" href="https://instagram.com/organic.future22?igshid=YmMyMTA2M2Y=" target="_blank"><img class="instagram" src="./imagens/instagram-55.svg"></a>  <br />
+            <a class="email" href="email" target="_blank"><img class="email" src="https://cdn-icons-png.flaticon.com/512/4213/4213922.png"  ></a>  <br />
+            <a class="yt" href="youtube" target="_blank"><img class="youtube" src="https://www.gov.br/sudam/pt-br/canais_atendimento/fale-conosco-1/fale-conosco/youtube.png/@@images/11b4df29-2717-429f-8ce3-6d01547c5618.png" ></a>  <br />
+            </div>
+        
+            
+            <div class="footerlinkedin">
+                <h3>Siga nossos linkedIn</h3> <br />
+                <a href="https://www.linkedin.com/in/adrissonknopka" target="_blank"><img class="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />Adrisson Knopka</a> <br />
+                <a href="https://www.linkedin.com/in/felipe-de-souza-batista-512535239" target="_blank"><img class="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />Felipe de Souza Batista</a> <br />
+                <a href="https://www.linkedin.com/in/ja%C3%ADne-kohn-248aab218" target="_blank"><img class="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/>Jaíne Kohn</a> <br />
+                <a href="#" target="_blank"><img class="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png">Vinícius Machado Pinheiro</a>
+            </div>
+        </div>
+        <p>&copy; 2022 Organic Future. Todos os direitos reservados.</p>
+        
+    </footer>
+
+
+</body>
+<script src="./js/main.js"></script>
+</html>

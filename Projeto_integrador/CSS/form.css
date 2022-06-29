@@ -1,0 +1,32 @@
+body{
+    display:flexbox;
+    background-image: url('fundo-login'); 
+    background-size:auto;
+    background-position:left;
+
+}
+form{
+    margin: 100px;
+    padding: 50px;
+    background: #e5d8c5;
+    border-radius: 50px;
+    
+}
+.form-label{
+    margin-left: 5px;
+}
+.botao{
+    background: #b6c2aa;
+    border: none;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.botao:hover{
+    background-color: #586f69;
+    color: #fff;
+}

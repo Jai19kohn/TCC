@@ -1,0 +1,44 @@
+  /*==================================inico da barra de navegação*/
+
+  .titulo-nav { /*usei para configurar o titulo do nav ("organic future") */
+    font-size: 20px;
+}
+
+nav { 
+    background: #586f69;
+    color: #b6c2aa;
+    padding: 50px;
+    border-bottom: 0.25rem solid #485158;
+    
+ 
+}
+.login { /*usei para configurar a imagem de login*/
+    width: 50px;
+    right: 50px;
+    float: right;
+    padding-right:px ;
+    margin-top: -30px;
+}
+
+.login:hover { /*usei para dar o feito hover na imagem de login*/
+    background-color: aqua;
+}
+
+
+.emcima{ /*usei para configurar os itens da barra de navegação*/
+    float: right;
+    font-size:  25px;
+    margin-top: -20px;
+    padding-left : 10px;
+    padding-right: 20px;
+    color: #b6c2aa;
+    text-decoration: none;
+}
+
+.emcima:hover {  /*usei para configurar o hover dos itens da barra de navegação*/
+    background-color: aqua;
+}
+
+
+
+/*==================================fim da barra de navegação*/

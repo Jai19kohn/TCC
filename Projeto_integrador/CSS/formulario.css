@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:black;
+}
+
+#container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    border: solid #e5d8c5;
+    margin-top: 15%;
+    background-image: linear-gradient(to right, #e5d8c5, #b6c2aa);
+    border-radius: 10px;
+    margin-bottom: 100px
+   
+  }
+  
+  #titulo { /*Usei para configurar o titulo*/
+      text-align: center;
+      border-bottom: solid #e5d8c5;
+      font-size: 30px;
+      color: #3d3f4e;
+  }
+  
+  .formlabel {
+    text-align: center;
+  }
+
+  .email1 {
+    text-align: left;
+  }
+
+  .email2 {
+    margin-left: 25px;
+  }
+  
+
+  .estado {
+    margin-left: 25px;
+  }
+
+  p {
+      padding-left: 25px;
+      color:#3d3f4e
+  }
+  
+  #butonnn{
+      color: black;
+      margin-bottom: 50px;
+      margin-top: 25px;
+      margin-left: 300px;
+      padding: 30px;
+      font: black;
+      background-image:linear-gradient(to left, #e5d8c5,#b6c2aa);
+      border-radius: 20px;
+  }
+
+  body {
+      background-color: rgb(71, 66, 66);
+      background-image: url('oi.jpg');
+      background-size: cover;
+      background-position: center;
+      margin: 0px
+  }
+
+  #butonnn {position:relative}
+#butonnn:hover{top:-14px;box-shadow:0 2px 2px #5a3940 }
+
+
+#day {position:relative}
+#day:hover{top:-5px;box-shadow:0 2px 2px #5a3940}
+
+#month{position:relative}
+#month:hover{top:-5px;box-shadow:0 2px 2px #5a3940}
+
+#year {position:relative}
+#year:hover{top:-5px;box-shadow:0 2px 2px#5a3940 }
+
+#name {position:relative}
+#name:hover{top:-5px;box-shadow:0 2px 2px #5a3940}
+
+#emailback{position:relative}
+#emailback:hover {top: -5px;box-shadow: 0 2px 2px #5a3940;}
+
+#estado {position:relative}
+#estado:hover {top: -5px;box-shadow: 0 2px 2px #5a3940;}
+
+
+img {
+    float: left; 
+}
+
+.mc {
+    float: right;
+    
+}
+
+#name {
+    background-image:linear-gradient(to left, #e5d8c5, #b6c2aa); ;
+    border-radius: 20px;
+}
+
+#day{
+    background-image:linear-gradient(to left, #e5d8c5, #b6c2aa);
+border-radius: 20px;
+}
+
+
+#month {
+    border-radius: 20px;
+    background-image:linear-gradient(to left, #e5d8c5, #b6c2aa);
+
+}
+
+#year {
+    border-radius: 20px;
+    background-image:linear-gradient(to left, #e5d8c5, #b6c2aa);
+}
+
+#emailback {
+    background-image:linear-gradient(to left, #e5d8c5, #b6c2aa);
+border-radius: 20px;
+
+}
+
+#estado {
+    background-image:linear-gradient(to left, #e5d8c5, #b6c2aa);
+    border-radius:20px;
+}
+
+.container8 {
+    padding-top: 0px;     
+    padding-bottom: 10px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: -100px;        
+    display: block;
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+
+
+
+
+/*==================================inicio da seção boas vindas*/
+
+    .parte1 { /*configura o fundo da seção boas vindas */
+        background-color: #738e81;
+        background-image: url('./fundoloja1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 500px;
+        
+    }
+    
+
+    .titleboasvindas {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 570px;
+   }
+
+   
+    .texto1 { /*configura o texto da primeira seção*/
+        padding-left: 600px;
+        font-size: 25px;
+        color:  #e5d8c5;
+    }
+
+
+
+
+/*==================================fim da seção boas vindas*/
+
+
+/*==================================inicio do carrosel*/
+
+
+
+.backcarr { /*usei para configurar o background da seção do carrosel*/
+    background-color: #e5d8c5;
+}
+
+.legprod{ /*usei para configurar a letra do produto*/
+    color:  #270f27;
+    margin-bottom: -40px;
+    margin-bottom: -90px;
+}
+
+.saiba2 { /*usado para configurar a cor da escrita "saiba mais"*/
+    color: #270f27;
+    padding-top: 60px;
+}
+
+
+.titlemaior { /*usei para configurar o titulo do carrosel*/
+    padding-left: 100px;
+}
+
+.saibamais {
+color: #d1d1d1;
+}
+
+
+
+/*==================================fim do carrosel*/
+
+
+
+
+
+
