@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+
+
+
+
+
+/*==================================inicio da seção boas vindas*/
+
+    .parte1 { /*configura o fundo da seção boas vindas */
+        background-color: #738e81;
+        background-image: url('./fundoloja1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 500px;
+        
+    }
+    
+
+    .titleboasvindas {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 570px;
+    color:#b6c2aa ;
+    text-align: center;
+   }
+
+   
+    .texto1 { /*configura o texto da primeira seção*/
+        padding-left: 600px;
+        font-size: 25px;
+        color:  #32293c ;
+    }
+
+
+/*==================================fim da seção boas vindas*/
+
+
+/*==================================inicio do carrosel*/
+
+
+
+.backcarr { /*usei para configurar o background da seção do carrosel*/
+    background-color: #e5d8c5;
+}
+
+.legprod{ /*usei para configurar a letra do produto*/
+    color:  #270f27;
+    margin-bottom: -40px;
+    margin-bottom: -90px;
+}
+
+.saiba2 { /*usado para configurar a cor da escrita "saiba mais"*/
+    color: #270f27;
+    padding-top: 60px;
+}
+
+
+.titlemaior { /*usei para configurar o titulo do carrosel*/
+    padding-left: 100px;
+}
+
+.saibamais {
+color: #d1d1d1;
+}
+
+.carousel-control-prev-icon { /*usei para configurar o background no botão de passar o proximo slide*/
+    background-color: #738e81;
+}
+
+.carousel-control-next-icon { /*usei para configurar o background no botão de voltar o proximo slide*/
+    background-color: #738e81;
+}
+
+/*==================================fim do carrosel*/
+
+
+
+
+
+/*==================================inicio da tabela*/
+
+.wrapper { 
+        display: grid;
+        margin-left: 340px;
+        grid-template-columns: 20% 30% 20%;
+        grid-gap: 1em;
+        overflow-x: hidden; 
+        margin-bottom: 40px;
+    } 
+ 
+        .um{
+            background-color: #b6c2aa;
+            color: #32293c;
+
+        }
+ 
+        .dois {
+            background-color:  #98a794;
+            color: #32293c;
+        }
+
+        .tres {
+            background-color:  #748e81;
+            color: #32293c;
+        }
+
+
+h3 {
+    text-align: center;
+}
+
+li {
+    margin-left: 15px;
+}
+
+/*==================================fim da tabela*/
+
+
+
+
+
+
+
+
+
+/*=======================================media query*/
+
+
+
+/*===============================================inicio da seção tela de boas vindas */
+
+@media(max-width:768px) {
+
+    .parte1 { /*usei para configurar a seção boas vindas */
+        padding-left: 100px;
+        font-size: 50px; 
+        padding-bottom: 200px;
+        margin-bottom: -20px ; 
+        
+    }
+
+    .titleboasvindas {   /*usei para configurar o titulo da seção boas vindas */
+        padding-left: 100px;
+        padding-left: 2px;
+        color: #270f27 ;
+      
+   }
+ 
+   .texto1 {  /*usei para configurar o texto  do boas vindas */
+        padding-left: 100px;
+        padding-left: 2px;
+        padding-top: 50px;
+        color: #e5d8c5 ;
+   }
+
+}
+/*===============================================fim do sobre nos*/
+
+
+
+
+/*===============================================inicio da tabela*/
+@media(max-width:768px) {
+
+    .wrapper { /*usei para configurar um em baixo do outro  */
+    flex-direction: column;
+     margin-left: 10px;
+     padding-right: 20px;
+     display: block;
+    }
+
+    .um { /*usei para configurar o primeiro plano*/
+        margin-bottom: -18px;
+        padding-bottom: 20px;
+    }
+}
+
+/*===============================================fim da tabela*/

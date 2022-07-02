@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/*==================================inico da barra de navegação*/
+
+.titulo-nav { /*usei para configurar o titulo do nav ("organic future") */
+    font-size: 30px;
+}
+
+nav { 
+    background: #586f69;
+    color: #b6c2aa;
+    padding: 50px;
+    border-bottom: 0.25rem solid #485158;
+}
+
+.login { /*usei para configurar a imagem de login*/
+    width: 50px;
+    right: 50px;
+    float: right;
+    padding-right:px ;
+    margin-top: -30px;
+}
+
+.login:hover { /*usei para dar o feito hover na imagem de login*/
+    background-color: aqua;
+}
+
+.emcima{ /*usei para configurar os itens da barra de navegação*/
+    float: right;
+    font-size:  25px;
+    margin-top: -20px;
+    padding-left : 10px;
+    padding-right: 20px;
+    color: #b6c2aa;
+    text-decoration: none;
+}
+
+.emcima:hover {  /*usei para configurar o hover dos itens da barra de navegação*/
+    background-color: aqua;
+}
+/*==================================fim da barra de navegação*/
+
+
+
+
+
+/*========================================inicio do rodapé*/
+footer {
+    background: #586f69;
+    color: #b6c2aa;
+    padding-bottom: 50px;
+}
+
+.facebook { /*usado para configurar o icone  do facebook*/
+    width: 50px ;
+    height: 40px ;
+    margin-left: 100px;
+}
+
+.instagram {  /*usado para configurar o icone  do instagram*/
+    width: 50px ;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.email {  /*usado para configurar o icone  do email*/
+    width: 50px;
+    height: 40px;
+    margin-left: 51px;
+
+}
+
+.youtube {  /*usado para configurar o icone  do youtube*/
+    width: 50px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.linkedin {  /*usado para configurar o icone  do linkedin*/
+    width: 35px;
+    height: 35px;
+}
+
+.displayfooter {
+    font-family: arial;
+    display: flex;
+}
+
+.footerlinkedin { /*usei para configurar a organização dos icones do linkedin*/
+    display: flow-root;
+    margin-left: 230px;
+
+}
+
+.arrumar {
+    padding-right: 20px;
+    margin-left: 50px;
+}
+
+.redess { /*usei para dar espaço entre "redes socias" e "siga nossa linkedin"*/
+    padding-right: 20px;
+    margin-left: 100px;
+}
+
+.face:hover {  /*usado para configurar o hover do facebook*/
+    color: rgb(53, 160, 248);
+}
+
+.insta:hover { /*usado para configurar o hover do insta*/
+    color: rgb(133, 47, 204);
+}
+
+.email:hover { /*usado para configurar o hover do email*/
+    color: rgb(40, 141, 99);
+}
+
+.yt:hover { /*usado para configurar o hover do youtube*/
+    color: #8b1616;
+}
+
+/*==============================fim do rodapé*/

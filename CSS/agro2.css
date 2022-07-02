@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #e5d8c5;
+    color: #270f27;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+/*voce sabe veneno comendo?*/
+
+.divs{
+    display: flexbox;
+    border-radius: 7px;
+    background:#586f69;
+    margin: 20px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+}
+
+
+.imgs{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 250px;
+    border-radius: 7px;
+}
+
+.agua {
+    display: flexbox;
+    background:#586f69;
+    margin: 20px;
+    padding: 100px;
+    border-radius: 7px;
+}
+
+.parte2 {
+    display: flexbox;
+    background:#586f69;
+    margin: 20px;
+    padding: 100px;
+    border-radius: 7px;
+}
+
+
+
+
+/*=======================================media query*/
+
+@media(max-width:768px) {
+
+    .imgs {/*usei para configurar as imagens  */
+         margin-left: 70px;
+
+    }
+
+    h1 { /*usei para configurar o h1 de "voce sabe quais venenos" e das abelhas */
+        margin-left: 70px ;
+    }
+
+    p{ /*usei para configuarar os   paragrafos */
+        margin-left: 70px;
+      
+    }
+
+    .price-box { /*usei para configuarar o paragrafo de "um coquetel" */
+        margin-left: 10px;
+    }
+
+    .lado { /*usei para configuarar o paragrafo "de acordo com os engenheiros" */
+        margin-left: 10px;
+    }
+}

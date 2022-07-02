@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/formulario.css">
+    <link rel="stylesheet" href="./CSS/nav_footer.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+   
+<!--===================================navegaçao-->
+<header>
+    <nav >
+        <p class="titulo-nav">Organic Future</p>
+        <a href="formulário.html"><img class="login" src="./imagens/login.svg" > </a>
+        <a class="emcima" href="loja.html">Produtos</a>
+        <a class="emcima" href="adubos.html">Adubos orgânicos</a>    
+        <a class="emcima" href="agrotóxicos.html">Pesticidas</a>
+        <a class="emcima" href="SobreNos.html">Sobre nós</a>
+        <a class="emcima" href="index.html">Home</a>
+    </nav>
+    </header>
+    
+    <hr />
+    
+    <!--=============================fim da navegação-->
+    
+
+
+
+
+    <form>
+
+    <div id="container">
+        <p id="titulo">Cadastre seu produto para ser anunciado em nosso site 
+        </p>
+        <p> Nome: <input id="name" type="text" required="required" placeholder="Nome " > </p>
+
+        <p> Data de nascimento:<br />
+            <input required type="text" placeholder="Dia" id="day">
+            <input required type="text" placeholder="Mês"
+            id="month">
+            <input required type="text" placeholder="Ano" id="year">
+
+            <div class="email2">
+            <label  class="form-label">E-mail</label>             
+            <input id="emailback" type="email" class="email1" placeholder="Adicione seu E-mail">
+        </div>
+        </p>
+
+     <div  class="estado">
+        <label  for="exampleDataList" class="form-label">Estado</label> 
+                <input id="estado" class="formcontrol" list="datalistOptions" id="exampleDataList" placeholder="Digite seu Estado:">             
+                <datalist id="datalistOptions">
+                    <option value="Acre"></option> 
+                    <option value="Alagoas"></option> 
+                    <option value="Amapá"></option> 
+                    <option value="Amazonas"></option> 
+                    <option value="Bahia"></option>
+                    <option value="Ceará"></option>
+                    <option value="Distrito Federal"></option>
+                    <option value="Espírito Santo"></option>
+                    <option value="Goiás"></option>
+                    <option value="Maranhão"></option>
+                    <option value="Mato Grosso"></option>
+                    <option value="Mato Grosso do Sul"></option>
+                    <option value="Minas Gerais"></option>
+                    <option value="Pará"></option>
+                    <option value="Paraíba"></option>
+                    <option value="Paraná"></option>
+                    <option value="Pernambuco"></option>
+                    <option value="Piauí"></option>
+                    <option value="Rio de Janeiro"></option>
+                    <option value="Rio Grande do Sul"></option>
+                    <option value="Rondônia"></option>
+                    <option value="Roraima"></option>
+                    <option value="Santa Catarina"></option>
+                    <option value="São Paulo"></option>
+                    <option value="Sergipe"></option>
+                    <option value="Tocantins"></option>
+                </datalist>
+                <br />
+            </div>
+
+         <button id="butonnn" onclick="ageCheck()">ENTRAR</button>
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--====================================== inicio do Rodapé-->
+<footer>
+    <div class="displayfooter">
+    
+        <img class="imgfooter" src="./Imagens/logo_organic.png" >
+    
+        <div class="redesss" >
+        <h3 class="redess">Redes sociais</h3> <br />
+        <a class="face" href="http://m.me/111504611609934" target="_blank"><img class="facebook" src="./imagens/facebook.svg">Facebook</a> <br />
+        <a class="insta" href="https://instagram.com/organic.future22?igshid=YmMyMTA2M2Y=" target="_blank"><img class="instagram" src="./imagens/instagram.svg">Instagram</a>  <br />
+        <a class="email1" href="email" target="_blank"><img class="email" src="./imagens/email.svg"  > Email</a>  <br />
+        <a class="yt" href="youtube" target="_blank"><img class="youtube" src="./imagens/youtube.svg" >Youtube</a>  <br />
+        </div>
+    
+        
+        <div class="footerlinkedin">
+            <h3>Siga nossos linkedIn</h3> <br />
+            <a href="https://www.linkedin.com/in/adrissonknopka" target="_blank"><img class="linkedin" src="./imagens/linkedin.svg" />Adrisson Knopka</a> <br />
+            <a href="https://www.linkedin.com/in/felipe-de-souza-batista-512535239" target="_blank"><img class="linkedin" src="./imagens/linkedin.svg" />Felipe de Souza Batista</a> <br />
+            <a href="https://www.linkedin.com/in/ja%C3%ADne-kohn-248aab218" target="_blank"><img class="linkedin" src="./imagens/linkedin.svg"/>Jaíne Kohn</a> <br />
+            <a href="https://www.linkedin.com/in/vinicius-machado-pinheiro-b55978243/" target="_blank"><img class="linkedin" src="./imagens/linkedin.svg">Vinícius Machado Pinheiro</a>
+        </div>
+    </div>
+    
+    <p class="copy">&copy; 2022 Organic Future. Todos os direitos reservados.</p>
+    
+    </footer>
+    <!--Fim do rodapé-->
+
+
+
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,403 @@
+@charset "utf-8";
+
+body {
+    font-family:Arial;
+    background:  #e5d8c5;
+    color: #270f27;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+/*==================================inico do sobre nos*/
+
+ .sobrenos { /*usei para configurar a seção sobre nos*/
+    background-image: url('fundo1.jpg');
+    background-position: center ;
+    background-size: cover;
+    float: left;
+    padding: 50px;
+    background-color:white;
+    width: 100%;
+    
+ }
+
+ .titlesobre {  /*usei para configur o titulo do sobre nos*/
+    padding-left: 400px;
+    font-size: 100px;
+ }
+
+ 
+ 
+
+ .btnsobre { /*usei para configurar o botao "sobre nos"*/
+padding-left: 200px;
+color: #b6c2aa;
+ }
+
+ .btnsobre:hover { /*Usado para configurar a o hover do botao "sobre nos"*/
+    color: #32293c;
+ }
+
+ .psobre { /*usei para configurar o paragrafo do sobre nos*/
+    padding-bottom: 400px;
+    padding-left:50%;
+    font-size: 30px;
+    padding-top: 20px;
+ }
+
+
+
+
+/*==================================fim do sobre nos*/
+
+
+
+
+
+/*==================================inico do que os pesticidas causam*/
+
+.oqpesticidas { /*usei para configurar a seção "oq pesticidas causam"*/
+    float: left;
+    padding: 50px;
+    background-color: #e5d8c5;
+    color: #270f27;
+
+ }
+
+.imgoqpesticidas { /*usei para configurar a img da seção "oq pesticidas causam"*/
+    float: right;
+    width: 400px ;
+    height: 400px;
+    border-radius:20px ;
+   
+}
+
+.titleoqpesticidas {
+    font-size: 50px;
+}
+
+.ppesticidas {
+    font-size: 30px;
+}
+
+/*==================================fim do que os pesticidas causam */
+
+
+
+
+
+/*==================================inico da importancia dos adubos organicos */
+
+.impadubos { /*usei para configurar a seção "importancia dos adubos orgânicos"*/
+    float: left;
+    padding: 50px;
+    background-color:#7e5950 ;
+    font-size: 30px;
+    color: #270f27;
+ }
+
+ .titleimpadubos{
+    text-align: center;
+    margin-bottom: 30px;
+ }
+
+
+.imgimpadubos { /*usei para configurar a img da seção "importancia dos adubos orgânicos"*/
+    float: left;
+    width: 400px ;
+    height:400px ;
+    border-radius: 20px;
+    margin-right: 19px;
+   
+}
+
+
+    
+    
+
+/*==================================fim da importancia dos adubos organicos */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================inicio dos cards*/
+
+
+.imgc1 { /*configura a imagem do 1 card*/
+    width: 250px;
+    height: 190px;
+}
+
+
+.imgc2 {  /*configura a imagem do 2 card*/
+    width: 250px;
+    height: 190px;
+}
+
+.imgc3 { /*configura a imagem do 3 card*/
+    width: 250px;
+    height: 190px;
+    margin-top: 40px;
+    margin-bottom: -35px;
+}
+
+
+.cards.grid{ /*usado para colocar os cards um ao lado do outro*/
+    gap: 2rem;  
+    display: flex;
+    margin: 100px;
+}
+
+.cards .container{
+    margin: 0 auto;
+}
+
+.card{
+    padding: 5rem 2rem;
+    box-shadow: 0px 0px 15px  rgba(0,0,0,0.08);
+    border-bottom: 0.25rem solid ;
+    border-radius: .25rem .25rem 0 0;
+    text-align: center;
+    background-color: var(--body-color);
+    background-color: #927160  ;
+    color: #270f27;
+}
+
+.card i{
+    display: block;
+    margin: 3rem;
+    font-size: 5rem;
+    color: var(--base-color);
+    
+}
+
+.card .title{ /*usei para configurar o titulo dos cards*/
+    font-size: 1.5rem;
+    
+}
+
+/*===========================================fim dos cards*/
+
+
+
+
+
+
+/*========================================== inicio dos parceiros*/
+
+.parceirostotal { /*usado para configurar a area de parceiros*/
+    background-color:#485158;
+    color: #b6c2aa;
+    padding: 200px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.parceiros { /*usei para deixar espaço entre as imagens*/
+ margin: 20px;
+}
+
+.patrocinio { /*usei para colocar uma imagem ao lado da outra e configurar a margem*/
+    display: flex;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+/*=======================================fim dos parceiros*/
+
+
+
+
+
+
+
+
+
+
+/*=======================================media query*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================================inicio do sobre nos*/
+
+   @media(max-width:768px) {
+
+    .titlesobre { /*usei para configurar o titulo*/
+        padding-left: 100px;
+        font-size: 50px;   
+    }
+
+
+    .psobre { /*usei para configurar o paragrafo*/
+        padding-left: 100px;
+        font-size: 30px;   
+    }
+
+    .btnsobre { /*usei para configurar o botão*/
+        padding-left: 50px;
+        font-size: 30px;   
+    }
+   }
+
+
+/*===============================================fim do sobre nos*/
+
+
+
+
+/*==================================inico do "o que os peticidas causam"*/
+
+
+@media(max-width:768px) {
+    .oqpesticidas{
+        margin-left: -20px;   
+        padding-right: 0px;
+
+    }
+    
+    .imgoqpesticidas {
+        margin-left: -10px;
+        margin-right: 35px;
+    }
+
+    .titleoqpesticidas {
+        padding-top: 390px;
+    }
+   }
+
+/*==================================fim do "o que os peticidas causam"*/
+
+
+
+
+/*==================================inico da importancia dos adubos organicos*/
+
+
+@media(max-width:768px) {
+    .impadubos{
+        margin-left: -20px;   
+        padding-right: 0px;
+
+    }
+    
+    .imgimpadubos {
+        margin-left:10px ;
+        padding-right: -20px ;
+    }
+   }
+
+/*==================================fim da importancia dos adubos organicos*/
+
+
+
+
+
+
+
+
+
+
+
+/*===============================================inicio dos cards*/
+
+@media(max-width:768px) {
+    .cards { /*usei para colocar os cards um em baixo do outro*/
+        flex-direction:column;    
+    }
+
+    .imgc1 {
+        padding-right: 40px;
+    }
+
+    .imgc2 {
+        padding-right: 40px;
+    }
+
+    .imgc3 {
+        padding-right: 40px;
+    }
+
+   }
+
+
+/*===============================================fim dos cards*/
+
+
+
+
+
+
+
+
+/*===============================================inicio dos  parceiros*/
+   @media(max-width:768px) {
+    .patrocinio{ /*usei para configurar os patrocinadores um em baixo do outro*/
+       flex-direction: column;  
+    }
+.parceirostotal {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left:20px ;
+    padding-right:20px ;
+}
+
+
+    .parceiros { /*usei para configurar a imagem dos parceiros*/
+        margin-left: -10px;   
+    }
+   }
+
+
+/*===============================================fim dos  parceiros*/
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

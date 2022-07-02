@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body {
+    background:#e5d8c5;
+    color: #270f27;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.organic {
+ float: right;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ margin-left: 150px;
+ margin-right: 150px;
+}
+
+.imgOrganic {
+    width: 350px;
+    right: 230px;
+    float: left;
+    padding-right: 100px;
+}
+
+.historia {
+ float: left;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ margin-left: 150px;
+ margin-right: 150px;
+}
+
+.imgHistoria {
+    width: 350px;
+    right: 230px;
+    float: right;
+    padding-left: 100px;
+}
+
+.missao {
+    margin: 150px;
+}
+
+.valor {
+    margin:50px;
+    box-shadow: 0px 0px 15px  #7e5950;
+    border: solid 2px #5a3940;
+    border-radius: 0.25rem 0.25rem 0 0;
+    text-align: center;
+    background-color: ;
+    color: black;
+}

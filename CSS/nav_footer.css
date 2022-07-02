@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+/*==================================inico da barra de navegação*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo-nav { /*usei para configurar o titulo do nav ("organic future") */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b6c2aa ;
+}
+
+nav { 
+    background: #586f69;
+    color: #b6c2aa;
+    padding: 50px;
+    border-bottom: 0.25rem solid #485158;
+}
+
+.login { /*usei para configurar a imagem de login*/
+    width: 50px;
+    right: 50px;
+    float: right;
+    padding-right:px;
+    margin-top: -30px;
+}
+
+.login:hover { /*usei para dar o feito hover na imagem de login*/   
+    background-color: #b6c2aa;
+    border-radius: 7px;
+}
+
+.emcima{ /*usei para configurar os itens da barra de navegação*/
+    float: right;
+    font-size:  25px;
+    margin-top: -20px;
+    padding-left : 10px;
+    padding-right: 20px;
+    color: #b6c2aa;
+    text-decoration: none;
+}
+
+.emcima:hover {  /*usei para configurar o hover dos itens da barra de navegação*/
+    background-color: #b6c2aa;
+    color: #32293c;
+    border-radius: 7px;
+}
+/*==================================fim da barra de navegação*/
+
+
+
+
+
+/*========================================inicio do rodapé*/
+footer {
+    background-color: #927160 ;
+    padding-bottom: 50px;
+}
+.imgfooter {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    border-radius: 10px;
+}
+.facebook { /*usado para configurar o icone  do facebook*/
+    width: 50px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.facebook:hover { /*usado para configurar o hover do icone  do facebook*/
+    background-color: #b6c2aa;
+    color: #32293c;
+    border-radius: 7px;
+}
+
+
+
+
+.instagram {  /*usado para configurar o icone  do instagram*/
+    width: 50px ;
+    height: 40px;
+    margin-left: 100px;
+}
+
+
+.instagram:hover { /*usado para configurar o hover do icone do instagram*/
+    background-color: #b6c2aa;
+    color: #32293c;
+    border-radius: 7px;
+}
+
+
+
+.email1 {  /*usado para configurar o "a"  do email*/
+    width: 50px;
+    height: 40px;
+    margin-left: 51px;
+}
+
+
+.email {  /*usado para configurar o icone  do email*/
+    width: 50px;
+    height: 40px;
+    margin-left: 51px;
+}
+
+
+
+.email:hover {  /*usado para configurar hover do icone  do email*/
+    background-color: #b6c2aa;
+    color: #32293c;
+    border-radius: 7px;
+}
+
+.youtube {  /*usado para configurar o icone  do youtube*/
+    width: 45px;
+    height: 40px;
+    margin-left: 105px;
+}
+
+.youtube:hover { /*usado para configurar o hover do icone  do youtube*/
+    background-color: #b6c2aa;
+    color: #32293c;
+    border-radius: 7px;
+}
+
+.linkedin {  /*usado para configurar o icone  do linkedin*/
+    width: 35px;
+    height: 35px;
+}
+
+.linkedin:hover { /*usado para configurar o hover do icone  do linkedin*/
+    background-color: #b6c2aa;
+    color: #32293c;
+    border-radius: 7px;
+}
+
+.displayfooter {
+    font-family: arial;
+    display: flex;
+}
+
+.footerlinkedin { /*usei para configurar a organização dos icones do linkedin*/
+    display: flow-root;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.redess { /*usei para dar espaço entre "redes socias" e "siga nossa linkedin"*/
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+
+
+.copy {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*==============================fim do rodapé*/
+
+
+
+
+
+
+
+
+/*==============================Media query*/
+
+
+
+
+
+
+
+
+
+/*=======================================inicio do nav*/
+
+
+@media(max-width:768px) { 
+    nav {
+        flex-direction:column-reverse;
+        display: flex;
+    }
+.emcima {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.login{
+    margin-top: -300px;
+}
+   }
+
+   /*=======================================fim do nav*/
+
+
+
+
+  
+   
+   
+/*=======================================inicio do rodapé*/
+
+   @media(max-width:768px) {
+    .displayfooter {
+        flex-direction:column;    
+    }
+
+    .redesss{
+        padding-left: 60px;   
+    }
+
+    .footerlinkedin{
+        padding-right: 100px; 
+        padding-right: 10px;   
+    
+    }
+
+    .copy {
+        margin-top: 20px;
+    }
+   }
+
+   .imgfooter {
+    margin-bottom: 5px;
+   }
+
+
+   /*=======================================fim do rodapé*/

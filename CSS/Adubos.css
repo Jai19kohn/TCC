@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+body {
+    background-color:#e5d8c5  ;
+    font-family: Arial, Helvetica, sans-serif;     
+    font-size: 17px;
+    color:rgb(33, 196, 0);
+    margin: 0px;
+    color: #270f27
+
+}
+
+article {
+    padding-top: 0px;     
+    padding-bottom: 0px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block; 
+
+    
+    
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #32293c;
+}
+
+p {
+    color:  #270f27 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    color:  #270f27 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+.container1 {
+    background-image: url('fundopesticidas2.jpg');
+    background-size: 110%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: -100px;
+    border-right: -100px;
+    border-top: -100px;
+    border-bottom: 100px;
+    padding-bottom: 300px;
+    padding-top: 1px;
+  
+  
+    background-position: center;
+}
+
+.imgs {
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.imgs2 {
+    border-radius: 40px;
+    margin:20px;
+}
+
+
+.imgs4 {
+    border-radius: 40px;
+    margin-right:-90px;
+}
+
+
+
+.container2 {
+    padding-top: -200px;     
+    padding-bottom: 30px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+
+.container3 {
+    padding-top: -200px;     
+    padding-bottom: 30px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+.container4 {
+    padding-top: 0px;     
+    padding-bottom: 100px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;        
+    display: block;
+}
+
+
+.container5 {
+    padding-top: 0px;     
+    padding-bottom: 100px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: 100px;
+}
+
+li {
+    color:  #270f27;
+}
+
+
+
+
+
+
+.container8 {
+    padding-top: 0px;     
+    padding-bottom: 10px;     
+    padding-right: 100px;     
+    padding-left: 100px; 
+    margin-top: 100px;     
+    margin-bottom: -100px;        
+    display: block;
+}
+
+
+
+/*===========================media query*/
+
+
+
+@media(max-width:768px) {
+    h2{ /*usei para configuarar o paragrafo h2*/
+        margin-left: -70px;
+    }
+
+    .h2bio {/*usei para configurar o h2 do biopesticidas */
+        margin-left: 20px;
+    }
+
+    .h2pq { /*usei para configurar o h2 do porque mudar*/
+        margin-left: 60px;
+    }
+    .h2ad{ /*usei para configuarar  o h2 do adubos organicos */
+        margin-left: 60px;
+    }
+
+    .imgs {/*usei para configurar a 1 e a 3 imagem*/
+         margin-left: -80px;
+
+    }
+    
+
+    .imgs2 { /*usei para configuarar a 2 imagem */
+        margin-right: -80px;
+    }
+
+    .imgs4 { /*usei para configuarara 4 imagem */
+        margin-right: -180px;
+    }
+
+    .ul1 { /*usei para configuarar os itens da lista */
+        margin-left: -80px;
+        margin-right: 0px;
+        padding-left: 20px;
+
+    }
+}
